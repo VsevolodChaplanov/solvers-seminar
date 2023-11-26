@@ -1,0 +1,7 @@
+#
+# Populates clang++ sycl compiler 
+#
+
+set(CMAKE_CXX_COMPILER $ENV{CXX_CLANG_COMPILER})
+set(CMAKE_C_COMPILER $ENV{C_CLANG_COMPILER})
+set(LLVM_LIB_DIR $ENV{LLVM_LD_LIBRARY_PATH})

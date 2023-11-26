@@ -1,0 +1,1 @@
+int main(int args, const char* const argv[]) { return 0; }
